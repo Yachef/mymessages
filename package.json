@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "preinstall": "npm install -g angular-cli",
+    "postinstall": "ng build && mv dist/* .",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
